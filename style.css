@@ -288,3 +288,48 @@ form button{
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer{
+    background-color: #173d32;
+    color: #f4f0e8;
+    padding: 40px 5%;
+    margin-top: 50px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    gap: 25px;
+}
+
+.footer a{
+    color: #c5a46d;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #c5a46d;
+}
+
+.footer-bottom p{
+    font-size: 13px;
+    color: #c5a46d;
+}
+
+.footer-content h2{
+    font-family: serif;
+    letter-spacing: 2px;
+    color: #c5a46d;
+}
