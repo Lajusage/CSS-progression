@@ -116,7 +116,7 @@ header nav{
 
 .product-grid img{
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 
 .product-grid{
@@ -126,5 +126,34 @@ header nav{
 }
 
 .line-up{
-    background-color: #f3ebdd;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #252525;
+}
+
+.line-up h3{
+    color: #173d32;
+    font-family: serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.line-up p{
+    color: #252525;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.line-up button{
+    background-color: #173d32;
+    color: #f3ebdd;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
