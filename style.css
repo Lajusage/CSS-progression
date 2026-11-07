@@ -14,7 +14,7 @@ header h1{
     color: #173d32;
     font-family: serif;
     font-size: 50px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 header a{
@@ -26,15 +26,18 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 80px;
-    padding: 35px 40px;
+    gap: 30px;
+    padding: 25px 40px;
     width: 100%;
-    border-bottom: 5px solid #252525;
+    border-bottom: 3px solid #252525;
     border-right: 5px solid #252525;
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
 }
 
 header nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
     color: #173d32;
     font-family: sans-serif;
     font-size: 15px;
