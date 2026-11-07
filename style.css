@@ -68,13 +68,13 @@ header nav{
     background-color: #173d32;
     font-size: 15px;
     font-weight: bold;
-    padding: 10px 10px;
+    padding: 14px 28px;
     border-radius: 10px;
     border: none;
 }
 
 .hero img{
-    width: 55%;
+    width: 50%;
     height: 500px;
     object-fit: cover;
     border-radius: 12px;
