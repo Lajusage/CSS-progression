@@ -72,6 +72,19 @@ header nav{
 }
 
 .hero img{
-    width: 100%;
-    height: 700px;
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 5%;
+}
+
+.hero-content{
+    width: 45%;
 }
